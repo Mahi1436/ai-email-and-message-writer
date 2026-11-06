@@ -130,11 +130,19 @@ One-click options to improve generated content:
 - Search previously generated drafts.
 - Copy, reuse, and delete saved messages.
 
-### 4.9 User Profile and Email Signature
+### 4.9 User Profile
 
 - Maintain personal profile information.
-- Save the user's name and designation.
-- Automatically add a personalized signature to generated emails.
+- Save and manage the user's name and other personal details.
+- Allow users to view and update their profile information.
+
+### 4.10 Admin Panel
+
+- Provide a dedicated dashboard for administrators.
+- Manage registered user accounts.
+- Monitor overall application activities.
+- View and manage system information.
+- Maintain administrative control over the application.
 
 ---
 
@@ -196,7 +204,6 @@ Potential future improvements may include:
 - Multiple language generation support.
 - Advanced email templates.
 - Direct email integration.
-- Voice-to-text message generation.
 - Additional AI-powered writing tools.
 - Enhanced personalization and writing preferences.
 
