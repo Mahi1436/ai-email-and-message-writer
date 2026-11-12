@@ -1,6 +1,6 @@
 # AI Email and Message Writer
 
-**An AI-powered web application for generating professional emails and messages effortlessly.**
+**An AI-powered web application that helps users generate professional emails and messages quickly and effortlessly using Google Gemini AI.**
 
 ---
 
@@ -8,15 +8,17 @@
 
 **AI Email and Message Writer**
 
-AI Email and Message Writer is a web-based application designed to help users create clear, professional, and context-appropriate emails and messages using Artificial Intelligence.
+**Course:** CSE 4104 – Software Development III (Fall 2026)  
+**Team:** CSE4104-7C-T05  
+**Section:** 7C
 
-**Course:** Software Development - III
+AI Email and Message Writer is a web-based application designed to help users write clear, professional, and context-appropriate emails and short messages using Artificial Intelligence.
 
 ---
 
 ## 2. Team Information
 
-This project is developed by a team of four members as part of the Software Development - III course.
+This project is developed by a team of four members as part of the Software Development III course.
 
 | No. | Team Member Name | Student ID | Role |
 |:---:|---|:---:|---|
@@ -27,66 +29,54 @@ This project is developed by a team of four members as part of the Software Deve
 
 ---
 
-## 3. Project Description
+## 3. Project Objectives
 
-AI Email and Message Writer is an AI-powered web application that helps users write clear, professional, and context-appropriate emails and messages within seconds.
+The main objectives of this project are:
 
-Instead of starting from a blank page, users can simply enter a few bullet points or a short idea describing what they want to communicate. They can then select the purpose, tone, and length of the message. Based on these preferences, the system generates a complete, well-structured, and ready-to-send email or message.
-
-### Problem Statement
-
-Students, job seekers, and employees often spend considerable time writing everyday emails and messages. Many people struggle to choose the appropriate tone, organize their thoughts, structure formal emails, or communicate confidently in English.
-
-Poorly written messages may lead to misunderstandings and create negative impressions on teachers, employers, clients, and professional contacts.
-
-### Proposed Solution
-
-Our application aims to solve these problems by providing an intelligent writing assistant powered by the Gemini API. It simplifies the writing process by transforming short ideas into meaningful and professional communication.
-
-Users can generate new messages, improve existing drafts, reply to received messages, and correct grammatical errors through an easy-to-use interface.
-
-### Target Users
-
-The application is designed for:
-
-- University students
-- Job applicants and job seekers
-- Office employees and professionals
-- Freelancers
-- Small business owners
-
-It is particularly useful for people who regularly communicate through Email, WhatsApp, Messenger, and LinkedIn.
+- To generate complete emails and messages from short ideas.
+- To allow users to customize messages by selecting purpose, tone, and length.
+- To suggest suitable replies to received messages.
+- To correct grammatical errors and improve users' existing drafts.
+- To support Bangla and Banglish input for English message generation.
+- To save generated drafts so users can access and reuse them later.
+- To provide a simple, responsive, and user-friendly writing assistant.
+- To help users communicate more professionally and confidently.
 
 ---
 
-## 4. Proposed Features
+## 4. Features
 
-The application will include the following features:
+The application will provide the following features:
 
-### 4.1 Authentication System
+### 4.1 User Authentication
 
-- User registration and login.
-- Secure logout functionality.
-- Forgot password and password recovery.
+- User registration with full name, email, and password.
+- Secure login and logout functionality.
+- Forgot password and password recovery through email.
+- Secure access to private user accounts.
 
 ### 4.2 AI Message Writer
 
-- Generate complete emails and short messages from simple ideas or bullet points.
-- Automatically generate appropriate email subjects.
-- Create well-structured and context-aware content.
+- Generate complete emails and short messages from simple ideas.
+- Support both Email and Short Message generation.
+- Automatically generate appropriate email subjects and message bodies.
+- Allow users to edit generated content before copying.
+- Copy generated messages with one click.
+- Regenerate messages to receive alternative versions.
+- Support ideas of up to 1000 characters.
 
 ### 4.3 Purpose, Tone, and Length Options
 
-Users can customize generated messages based on their communication needs.
+Users can customize generated messages according to their communication needs.
 
 **Purpose:**
-- Applications
-- Requests
-- Follow-ups
-- Apologies
-- Complaints
-- Thank-you notes
-- Job applications
+- Application
+- Request
+- Follow-up
+- Complaint
+- Apology
+- Thank You
+- Job Application
 
 **Tone:**
 - Formal
@@ -101,54 +91,70 @@ Users can customize generated messages based on their communication needs.
 
 ### 4.4 Quick Refine
 
-One-click options to improve generated content:
+Users can improve generated messages using one-click options:
 
 - Make Shorter
 - More Formal
-- Regenerate
+- Friendlier
+- Fix Grammar
 
 ### 4.5 Smart Reply
 
 - Users can paste a received email or message.
-- The AI generates 2–3 suitable reply options.
-- Helps users respond quickly and appropriately.
+- Select their preferred reply tone.
+- Generate 2–3 different reply suggestions.
+- Select, edit, and copy suitable replies.
 
-### 4.6 Proofreading
+### 4.6 AI Proofreading
 
-- Detect and correct spelling and grammatical errors.
+- Check spelling and grammatical errors.
 - Improve sentence structure and clarity.
-- Show what changes have been made to the original text.
+- Provide three proofreading levels:
+  - Fix Mistakes Only
+  - Fix and Improve
+  - Rewrite Professionally
+- Highlight changes in corrected text.
+- Display a list of changes made to the original text.
 
 ### 4.7 Bangla and Banglish Input Support
 
-- Users can write their ideas in Bangla or Banglish.
-- The system converts those ideas into polished English emails or messages.
+- Allow users to express their ideas in Bangla or Banglish.
+- Convert Bangla and Banglish input into polished English emails or messages.
+- Help users who are not confident writing in English.
 
 ### 4.8 Draft History
 
-- Automatically save generated messages.
-- Search previously generated drafts.
-- Copy, reuse, and delete saved messages.
+- Save generated messages to personal history.
+- View previously generated emails and messages.
+- Search and filter saved drafts.
+- Open, copy, and delete saved drafts.
+- Permanently delete all personal draft history.
 
 ### 4.9 User Profile
 
 - Maintain personal profile information.
-- Save and manage the user's name and other personal details.
-- Allow users to view and update their profile information.
+- Save and update full name, designation, institution, ID, and phone number.
+- Set default writing tone and output language.
+- View and manage personal account information.
 
 ### 4.10 Admin Panel
 
-- Provide a dedicated dashboard for administrators.
-- Manage registered user accounts.
-- Monitor overall application activities.
-- View and manage system information.
-- Maintain administrative control over the application.
+- Provide a separate admin login and dashboard.
+- View total registered users.
+- Monitor the number of generated messages.
+- View active users and failed AI requests.
+- Monitor statistics for today, the last 7 days, and the last 30 days.
+- Search registered users by name or email.
+- Block, unblock, and delete user accounts.
+- Monitor system activities and AI usage.
+
+**Privacy:** Administrators can view usage statistics and counts but cannot read users' private message content.
 
 ---
 
 ## 5. Technology Stack
 
-The project will use modern web technologies and AI integration tools to build a reliable and user-friendly application.
+The project will use modern web technologies and AI integration tools to develop a reliable and responsive application.
 
 | Category | Technology |
 |---|---|
@@ -160,61 +166,80 @@ The project will use modern web technologies and AI integration tools to build a
 | Frontend Deployment | Vercel |
 | Backend Deployment | Render |
 | Version Control | GitHub |
-| API Testing | Postman |
 
 ### Technology Overview
 
 - **React.js:** Used to develop the interactive and responsive user interface.
 - **Node.js:** Handles server-side operations and application logic.
 - **Express.js:** Provides backend routing and API development.
-- **MongoDB:** Stores user information, generated messages, and draft history.
-- **Google Gemini API:** Powers AI-based message generation, smart replies, proofreading, and rewriting.
+- **MongoDB:** Stores user information, account details, and generated draft history.
+- **Google Gemini API:** Powers AI-based message generation, smart replies, proofreading, and message refinement.
 - **Vercel:** Used for frontend deployment.
 - **Render:** Used for backend hosting and deployment.
 - **GitHub:** Used for source code management and team collaboration.
-- **Postman:** Used to test and verify backend APIs.
 
 ---
 
-## 6. Project Objectives
+## 6. Repository Structure
 
-The main objectives of this project are:
+The project will follow a modular structure with separate frontend and backend directories to maintain clean, organized, and manageable code.
 
-- To simplify everyday email and message writing.
-- To help users communicate professionally and confidently.
-- To reduce the time required to create well-structured messages.
-- To provide AI-powered writing, proofreading, and smart reply capabilities.
-- To support users who prefer expressing their ideas in Bangla or Banglish.
-- To create an accessible and user-friendly communication assistant.
+```text
+AI-Email-and-Message-Writer/
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── context/
+│   │   ├── services/
+│   │   ├── hooks/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── package.json
+│   └── .env.example
+│
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   ├── utils/
+│   ├── server.js
+│   ├── package.json
+│   └── .env.example
+│
+├── .gitignore
+└── README.md
+```
+
+**Note:** This is the proposed repository structure. Additional files and folders may be added during development.
 
 ---
 
-## 7. Expected Outcome
+## Project Scope and Limitations
 
-The expected outcome is a fully functional AI-powered web application that enables users to generate, customize, proofread, and manage professional emails and messages from a single platform.
+**In Scope:**
+- Responsive web application for desktop and mobile browsers.
+- User authentication and profile management.
+- AI-powered message generation.
+- Smart reply and proofreading.
+- Bangla and Banglish input support.
+- Draft history and management.
+- Admin dashboard and user management.
 
-By combining modern web technologies with Google's Gemini API, the application aims to make digital communication faster, easier, and more effective.
+**Out of Scope:**
+- Direct email sending from the application.
+- Direct Gmail or WhatsApp account integration.
+- Dedicated Android or iOS mobile application.
+- Voice-based message input.
 
----
-
-## 8. Future Improvements
-
-Potential future improvements may include:
-
-- Multiple language generation support.
-- Advanced email templates.
-- Direct email integration.
-- Additional AI-powered writing tools.
-- Enhanced personalization and writing preferences.
-
----
-
-## 9. Conclusion
-
-AI Email and Message Writer aims to make professional communication easier and more accessible for everyone. By integrating Artificial Intelligence with a modern web application, the project provides a practical solution to common writing challenges.
-
-Through this project, our team aims to demonstrate the practical application of software engineering principles, full-stack web development, database management, and AI integration.
+Users will copy their generated messages and send them through their preferred communication applications.
 
 ---
 
-**Developed as an academic project for Software Development - III.**
+**Developed as an academic project for CSE 4104 – Software Development III (Fall 2026).**
